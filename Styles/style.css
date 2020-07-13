@@ -65,6 +65,10 @@ a img {
 
 /* project section -------------------- */
 
+main p {
+    text-align: center;
+}
+
 .project {
 	position: relative;
 	margin: 1vw auto auto auto;
@@ -111,7 +115,7 @@ a img {
   position: absolute;
     top: 4%;
     right: 1%;
-  width: 40%;
+  width: 50%;
   height: 100%;
   margin: 0px;
   text-align: right;
