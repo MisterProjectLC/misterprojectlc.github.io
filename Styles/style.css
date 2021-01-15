@@ -123,13 +123,16 @@ main p {
 }
 
 .project div.project_overlay a {
-  width: 5vw;
-  height: 5vw;
   position: absolute;
     right: 1%;
     bottom: 5%;
   align-items: flex-end;
 }
+
+.project div.project_overlay a img {
+    width: 75px;
+    height: 75px;
+  }
 
 .project div.project_overlay div.project_overlay_2 {
   position: absolute;
@@ -143,15 +146,13 @@ main p {
 }
 
 .project div.project_overlay div.project_overlay_2 a {
-  width: 50%;
-  height: 1%;
   position:static;
   align-items: flex-end;
 }
 
 .project div.project_overlay div.project_overlay_2 a img {
-  width: 5vw;
-  height: 5vw;
+  width: 75px;
+  height: 75px;
   position:static;
   margin: 0px;
   padding: 0px;
