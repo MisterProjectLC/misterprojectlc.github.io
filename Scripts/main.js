@@ -81,7 +81,7 @@ class Main extends React.Component {
         const projectElements = this.projectList.map(element => {
             return (
                 <Project lang={this.list[this.state.lang]}
-                list={element["list"]}
+                list={element["list"]} video={element["video"]}
                 link={element["link"]} category={element["category"]}
                 link2={element["link2"]} category2={element["category2"]} bg={element["name"]}/>
             );
