@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 a img {
@@ -44,12 +44,15 @@ a img {
 #header {
     /*display: inline-block;*/
     position: sticky;
-    top: 0;
+    top: 0vw;
+    left: 0vw;
     vertical-align: top;
     margin: 0px;
     padding: 0px;
     padding-top: .0vw;
     background-color:white;
+    height: 5vw;
+    width: 98vw;
     z-index: 99;
 
     h1 {
@@ -75,7 +78,7 @@ a img {
         margin-top: 0;
         top: -10%;
         right: 1%;
-        width: 10%;
+        width: 10vw;
         height: 100%;
         z-index: 100;
         clear: both;
@@ -156,6 +159,7 @@ main p {
             margin: 0px;
             text-align: right;
             pointer-events: none;
+            font-size: 120%;
         }
 
         a {
@@ -165,8 +169,8 @@ main p {
             align-items: flex-end;
 
             img {
-                width: 75px;
-                height: 75px;
+                width: 6vw;
+                height: 6vw;
             }
         }
 
@@ -185,8 +189,9 @@ main p {
                 align-items: flex-end;
 
                 img {
-                    width: 75px;
-                    height: 75px;
+                    width: 6vw;
+                    height: 6vw;
+                    transform: transform(-50%, -50%);
                     position:static;
                     margin: 0px;
                     padding: 0px;
