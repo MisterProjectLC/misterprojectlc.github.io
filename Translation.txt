@@ -1,0 +1,64 @@
+PORTUGUÊS:
+
+DEUTSCH:
+MisterProjects persönliche Seite. Umfasst vorwiegend von persönlichen Projekten und andere beteiligte Sachen.
+
+Noch im Bau.
+
+Entlarve die Verschwörung hinter diesen pseudo-Windows 95 Betriebssystem. Nur auf Englisch.
+
+die Galaxie
+
+Ein absurdes metroidvania-like Spiel, das in einer intergalaktischen Tankstelle spielt. Nur auf Portugiesisch.
+
+Narrativ-orientiertes Kryptographie-Themenspiel, das in einem kriegsgeplagten Land während den 1940s spielt. Nur auf Portugiesisch.
+
+Minecraft-Karte, die das Sozialdeduktionsspiel Among Us mit Command-Blocks simuliert. Hat einen "physikalischeren" Stil als Phoenix SCs Version
+
+der Soundtrack
+
+Verteidigung- und Tippensspiel mit einer neon-ähnlichen Ästhetik und Soundtrack inspiriert von Lieder des Internets der 2000er Jahre.
+
+sich an akk anpassen
+
+Aktionsspiel mit limitierten Kontrolltasten. Binde und neu binde sie in Echtzeit, um sich an verschiedene Situationen anzupassen.
+
+Aktionsspiel mit zufälligen Zaubersprüchen und strategischer Improvisation. Nur auf Portugiesisch.
+
+Asteroids-ähnliches Spiel - kontrolliere die Schwerkraft, um Gegner zu manipulieren und zerstören.
+
+Ein mittelalterliches Diplomatiespiel basiert auf das Gefangenendilemma.
+
+Charakter-basiertes Kartenspiel mit gleichzeitigen Runden und Fokus auf der Vorhersage des Gegners. Nur auf Portugiesisch.
+
+
+
+<Project lang={this.list[this.state.lang]}
+                list={{"English":"Unmask the conspiracy behind this Windows 95-esque Operating System. LD48.",
+                "Português":"Desmascare a conspiração por trás deste Sistema Operacional ala Windows 95. LD48. Apenas em inglês."}}
+                link="https://misterproject.itch.io/thaumos" category="itchio" 
+                link2="https://ldjam.com/events/ludum-dare/48/thaumos" category2="LudumDare" bg="ThaumOS"/>
+
+                <Project lang={this.list[this.state.lang]}
+                list={{"English":"An absurdist metroidvania-like game set in an intergalactic gas station. Portuguese only.",
+                "Português":"Um metroidvania-like absurdista em um posto de gasolina intergalático."}}
+                link="https://misterproject.itch.io/iss-iporanga-space-station" category="itchio" bg="Iporanga Space Station"/>
+
+                <Project lang={this.list[this.state.lang]}
+                list={{"English":"Narrative-focused cryptography-themed game, set in a wartorn country during the 1940s. Portuguese only.",
+                "Português":"Jogo narrativo de criptografia em um país em guerra durante os 1940s."}}
+                video="https://www.youtube.com/embed/TSDcv-iXQqE"
+                link="https://gamejolt.com/games/cifra/569637" category="Gamejolt" bg="Cifra"/>
+
+                <Project lang={this.list[this.state.lang]}
+                list={{"English":"Minecraft map simulating the social deduction game Among Us, implemented using command blocks. Takes a more 'physical' take compared to Phoenix SC's version.",
+                "Português":"Mapa de Minecraft simulando o jogo de dedução social Among Us, implementado com command blocks. É uma versão mais 'física' comparada à versão de Phoenix SC."}}
+                video="https://www.youtube.com/embed/nfqVSoxF1ho"
+                link="https://github.com/MisterProjectLC/among_us_minecraft" category="GitHub" bg="Minecraft Among Us"/>
+
+                <Project lang={this.list[this.state.lang]}
+                list={{"English":"Defense typing game with a neon-like aesthetic and soundtrack inspired by early-Internet era songs",
+                "Português":"Jogo de digitação e defesa com uma estética neon e trilha sonora inspirada por músicas dos anos 2000 da Internet"}}
+                video="https://www.youtube.com/embed/eK5wpTAujIg"
+                link="https://misterproject.itch.io/lightstreak" category="itchio"
+                link2="https://gotm.io/misterproject/lightstreak" category2="Gotm" bg="Lightstreak"/>
