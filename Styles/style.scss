@@ -43,7 +43,7 @@ a img {
 
 #header {
     /*display: inline-block;*/
-    position: sticky;
+    position: fixed;
     top: 0vw;
     left: 0vw;
     vertical-align: top;
@@ -52,20 +52,20 @@ a img {
     padding-top: .0vw;
     background-color:white;
     height: 5vw;
-    width: 98vw;
+    width: 100%;
     z-index: 99;
 
     h1 {
         margin: 0px;
         margin-bottom: 10px;
         font-weight: inherit;
-        letter-spacing: -.05vw;
+        letter-spacing: 0;
     }
 
     h2 {
         margin: 0px;
         font-weight: inherit;
-        margin-top: -.675vw;
+        margin-top: -10px;
     }
 
     h1, h2 {
@@ -78,25 +78,26 @@ a img {
         margin-top: 0;
         top: -10%;
         right: 1%;
-        width: 10vw;
+        width: 15vw;
         height: 100%;
         z-index: 100;
         clear: both;
-        @include column-count(2);
-        column-width: 50%;
-        column-gap: 1vw;
+        display: grid;
+        grid-template-columns: 66% 33%;
 
         p {
             font-size: 2vw;
             color: black;
             opacity: 0%;
-            float: right;
+            margin-right: 1vw;
+            text-align: right;
             top: auto;
         }
 
         img {
-            width: 100%;
-            height: 95%;
+            margin-top: auto;
+            width: 90%;
+            height: 85%;
         }
     }
 

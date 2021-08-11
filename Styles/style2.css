@@ -31,7 +31,7 @@ a img {
 /* header  ------------------------- */
 #header {
   /*display: inline-block;*/
-  position: sticky;
+  position: fixed;
   top: 0vw;
   left: 0vw;
   vertical-align: top;
@@ -40,19 +40,19 @@ a img {
   padding-top: 0vw;
   background-color: white;
   height: 5vw;
-  width: 98vw;
+  width: 100%;
   z-index: 99;
 }
 #header h1 {
   margin: 0px;
   margin-bottom: 10px;
   font-weight: inherit;
-  letter-spacing: -0.05vw;
+  letter-spacing: 0;
 }
 #header h2 {
   margin: 0px;
   font-weight: inherit;
-  margin-top: -0.675vw;
+  margin-top: -10px;
 }
 #header h1, #header h2 {
   color: black;
@@ -63,26 +63,25 @@ a img {
   margin-top: 0;
   top: -10%;
   right: 1%;
-  width: 10vw;
+  width: 15vw;
   height: 100%;
   z-index: 100;
   clear: both;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  column-width: 50%;
-  column-gap: 1vw;
+  display: grid;
+  grid-template-columns: 66% 33%;
 }
 #header #langbutton p {
   font-size: 2vw;
   color: black;
   opacity: 0%;
-  float: right;
+  margin-right: 1vw;
+  text-align: right;
   top: auto;
 }
 #header #langbutton img {
-  width: 100%;
-  height: 95%;
+  margin-top: auto;
+  width: 90%;
+  height: 85%;
 }
 #header #langbutton:hover p {
   opacity: 100%;
