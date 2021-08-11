@@ -52,6 +52,7 @@ a img {
     padding-top: .0vw;
     background-color:white;
     height: 5vw;
+    max-height: 90px;
     width: 100%;
     z-index: 99;
 
@@ -116,6 +117,7 @@ main p {
 	position: relative;
 	margin: 1vw auto auto auto;
 	width: 75%;
+    max-width: 800px;
 	font-size: 1.5vw;
 
     img {
