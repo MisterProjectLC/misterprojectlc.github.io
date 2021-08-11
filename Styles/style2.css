@@ -39,8 +39,8 @@ a img {
   padding: 0px;
   padding-top: 0vw;
   background-color: white;
-  height: 5vw;
-  width: 98vw;
+  height: 0vw;
+  width: 100vw;
   z-index: 99;
 }
 #header h1 {

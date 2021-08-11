@@ -51,8 +51,8 @@ a img {
     padding: 0px;
     padding-top: .0vw;
     background-color:white;
-    height: 5vw;
-    width: 98vw;
+    height: 0vw;
+    width: 100vw;
     z-index: 99;
 
     h1 {
@@ -114,7 +114,7 @@ main p {
 .project {
 	position: relative;
 	margin: 1vw auto auto auto;
-	width: 75%;
+	width: 75vw;
 	font-size: 1.5vw;
 
     img {
