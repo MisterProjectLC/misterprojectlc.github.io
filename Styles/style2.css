@@ -96,7 +96,7 @@ main p {
 .project {
   position: relative;
   margin: 1vw auto auto auto;
-  width: 75vw;
+  width: 75%;
   font-size: 1.5vw;
 }
 .project img {
