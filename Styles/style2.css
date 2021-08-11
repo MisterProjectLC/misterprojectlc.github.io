@@ -83,7 +83,7 @@ a img {
   width: 90%;
   height: 85%;
 }
-#header #langbutton:hover p {
+#header #langbutton:hover p, #header #langbutton:active p {
   opacity: 100%;
 }
 
@@ -171,7 +171,7 @@ main p {
   padding: 0px;
 }
 
-.project:hover div.project_overlay {
+.project:hover div.project_overlay, .project:active div.project_overlay {
   opacity: 1;
 }
 

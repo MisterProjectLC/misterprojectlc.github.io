@@ -101,7 +101,7 @@ a img {
         }
     }
 
-    #langbutton:hover p {
+    #langbutton:hover p, #langbutton:active p {
         opacity: 100%;
     }
 }
@@ -202,6 +202,6 @@ main p {
     }
 }
 
-.project:hover div.project_overlay {
+.project:hover div.project_overlay, .project:active div.project_overlay {
 	opacity: 1;
 }
