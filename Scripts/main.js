@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     //ReactDOM.render(<Main/>, document.getElementById('start'))
     /*$("#langbutton").click(function() {
@@ -13,17 +12,20 @@ class Main extends React.Component {
         this.state = { lang: 0, projectsSetup: false };
         this.list = ["English", "Português", "Deutsch"];
         this.generalUI = [["Projects", "Still in construction!"], ["Projetos", "Ainda em construção!"], ["Projekte", "Noch im Bau!"]];
+        this.failedGet = false;
+        this.jsons = 0;
         this.projectList = [];
         this.descriptionList = [];
 
         this.setLang = this.setLang.bind(this);
         this.receiveProjectList = this.receiveProjectList.bind(this);
         this.receiveDescList = this.receiveDescList.bind(this);
+        this.defaultToJson = this.defaultToJson.bind(this);
         this.matchProjectAndDesc = this.matchProjectAndDesc.bind(this);
 
         console.log("Heroku app");
-        $.get("https://misterproject-github.herokuapp.com/", this.receiveProjectList);
-        $.get("https://misterproject-github.herokuapp.com/descriptions", this.receiveDescList);
+        $.ajax("https://misterproject-github.herokuapp.com/", {"success":this.receiveProjectList, "error": this.defaultToJson, "timeout":10000});
+        $.ajax("https://misterproject-github.herokuapp.com/descriptions", {"success":this.receiveDescList, "error": this.defaultToJson, "timeout":10000});
     }
 
     receiveProjectList(data, status) {
@@ -46,6 +48,20 @@ class Main extends React.Component {
         console.log(this.descriptionList);
         if (this.projectList.length > 0)
             this.matchProjectAndDesc();
+    }
+
+
+    defaultToJson(data, status) {
+        console.log("Timeout, defaulting to json...");
+
+        if (this.failedGet == true) {
+            return;
+        }
+        this.failedGet = true;
+
+        this.projectList = Projects;
+        this.descriptionList = Descriptions;
+        this.matchProjectAndDesc();
     }
 
 
