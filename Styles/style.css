@@ -12,20 +12,29 @@ h1, h2, p, button {
   font-family: Square;
 }
 
-h1, button {
-  font-size: 4vw;
-}
-
-h2 {
-  font-size: 1.5vw;
-}
-
 p {
   font-size: 2vw;
 }
 
-a img {
-  opacity: inherit;
+a {
+  font-weight: bold;
+  font-family: Square;
+}
+
+.whitespace {
+  height: 120px;
+}
+
+.sectionWhitespace {
+  height: 73px;
+}
+
+.smallWhitespace {
+  height: 60px;
+}
+
+.tinyWhitespace {
+  height: 20px;
 }
 
 /* header  ------------------------- */
@@ -38,58 +47,157 @@ a img {
   margin: 0px;
   padding: 0px;
   padding-top: 0vw;
-  background-color: white;
-  height: 5vw;
-  max-height: 90px;
+  background-color: #151515;
+  height: 10vh;
   width: 100%;
   z-index: 99;
 }
+#header h1, #header h2 {
+  margin-left: 5vw;
+}
 #header h1 {
-  margin: 0px;
-  margin-bottom: 10px;
+  font-size: 7vh;
   font-weight: inherit;
   letter-spacing: 0;
+  margin-top: 0%;
+  padding-top: 0%;
 }
 #header h2 {
-  margin: 0px;
+  font-size: 3vh;
   font-weight: inherit;
-  margin-top: -10px;
+  margin-top: -3vh;
+  padding-top: 0%;
 }
-#header h1, #header h2 {
-  color: black;
-  text-align: center;
+#header a {
+  text-decoration: none;
+  color: #999999;
+  transition: color 0.3s;
+  cursor: pointer;
 }
-#header #langbutton {
-  position: absolute;
-  margin-top: 0;
-  top: -10%;
-  right: 1%;
-  width: 15vw;
-  height: 100%;
-  z-index: 100;
-  clear: both;
-  display: grid;
-  grid-template-columns: 66% 33%;
-}
-#header #langbutton p {
-  font-size: 2vw;
-  color: black;
+#header a#languageDropdown {
   opacity: 0%;
-  margin-right: 1vw;
-  text-align: right;
-  top: auto;
+  width: 0;
+  height: 0;
 }
-#header #langbutton img {
-  margin-top: auto;
-  width: 90%;
-  height: 85%;
+#header a:hover {
+  color: #FFFFFF;
 }
-#header #langbutton:hover p, #header #langbutton:active p {
+#header #links {
+  position: absolute;
+  right: 20vh;
+  top: 25%;
+  height: 100%;
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+#header #links a {
+  position: relative;
+  display: block;
+  margin-left: 2vw;
+  margin-top: 0vw;
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+#header .header_button {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  float: right;
+  filter: invert(50%);
+  transition: all 0.5s;
+}
+#header #language .header_button {
+  right: 5vh;
   opacity: 100%;
+}
+#header #sandwich .header_button {
+  right: 5vh;
+  opacity: 0%;
+  pointer-events: none;
+}
+@media (max-aspect-ratio: 11/7) {
+  #header #sandwich .header_button {
+    opacity: 100%;
+    pointer-events: all;
+    right: 5vh;
+  }
+  #header #language .header_button {
+    right: 15vh;
+  }
+  #header #links {
+    position: absolute;
+    top: 9vh;
+    left: 0;
+    background-color: #202020;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 0vh;
+    transition: height 0.5s;
+  }
+  #header #links a {
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 5vw;
+    width: 100%;
+    opacity: 0%;
+    transition: opacity 0.5s;
+  }
+}
+@media (max-aspect-ratio: 4/7) {
+  #header #language .header_button {
+    opacity: 0%;
+    pointer-events: none;
+  }
+}
+#header a:hover .header_button {
+  filter: opacity(100%);
+  opacity: 100%;
+  transition: all 0.5s;
+}
+
+/* carousel -------------------------------- */
+#carouselExampleIndicators .d-block {
+  height: 90vh;
+  object-fit: cover;
+}
+#carouselExampleIndicators .carousel-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 100%);
+  z-index: 1;
+}
+@media (max-width: 980px) {
+  #carouselExampleIndicators h5 {
+    font-size: 2em;
+  }
+  #carouselExampleIndicators p {
+    font-size: 1.5em;
+  }
 }
 
 /* project section -------------------- */
+main {
+  background-color: #151515;
+}
 main p {
+  text-align: center;
+}
+main h1, main button {
+  font-size: 4vw;
+}
+main h2 {
+  font-size: 1.5vw;
+}
+
+.title {
   text-align: center;
 }
 
@@ -97,7 +205,6 @@ main p {
   position: relative;
   margin: 1vw auto auto auto;
   width: 75%;
-  max-width: 1000px;
   font-size: 1.5vw;
 }
 .project img {
@@ -136,6 +243,7 @@ main p {
   width: 50%;
   height: 100%;
   margin: 0px;
+  line-height: 2vw;
   text-align: right;
   pointer-events: none;
   font-size: 120%;
@@ -147,6 +255,7 @@ main p {
   align-items: flex-end;
 }
 .project div.project_overlay a img {
+  opacity: inherit;
   width: 6vw;
   height: 6vw;
 }
@@ -165,6 +274,7 @@ main p {
   align-items: flex-end;
 }
 .project div.project_overlay div.project_overlay_2 a img {
+  opacity: inherit;
   width: 6vw;
   height: 6vw;
   transform: transform(-50%, -50%);
@@ -175,6 +285,84 @@ main p {
 
 .project:hover div.project_overlay, .project:active div.project_overlay {
   opacity: 1;
+}
+
+/* ------------------- ABOUT ----------------------------------------- */
+.about p {
+  font-size: 1.5vw;
+}
+.about a {
+  font-size: 2vw;
+  text-decoration: none;
+  color: #999999;
+  transition: color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  left: auto;
+  margin-left: auto;
+  padding-left: auto;
+}
+.about a:hover {
+  color: #FFFFFF;
+}
+@media (max-width: 980px) {
+  .about h2 {
+    font-size: 3em;
+  }
+  .about p {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+.about .center {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.about .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  padding: 0 10%;
+}
+.about .flex-container .text-left {
+  width: 50%;
+  min-width: 400px;
+  text-align: justify;
+}
+.about .flex-container .text-right {
+  width: 50%;
+  min-width: 400px;
+  text-align: right;
+}
+.about .flex-container .link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  height: 30vh;
+}
+.about .flex-container .image {
+  width: 40%;
+  min-width: 200px;
+}
+.about .flex-container .image img {
+  width: 100%;
+}
+@media (max-width: 980px) {
+  .about .flex-container .text-left {
+    width: 80%;
+    min-width: 400px;
+  }
+  .about .flex-container .image {
+    width: 80%;
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
