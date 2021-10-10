@@ -169,6 +169,7 @@ a {
             align-content: flex-start;
             height: 0vh;
             transition: height 0.5s;
+            pointer-events: none;
 
             a {
                 text-align: right;
@@ -177,11 +178,12 @@ a {
                 width: 100%;
                 opacity: 0%;
                 transition: opacity 0.5s;
+                pointer-events: none;
             }
          }
     }
 
-    @media (max-aspect-ratio: 4/7)
+    @media (max-aspect-ratio: 5/7)
     {
         #language .header_button {
             opacity: 0%;
@@ -216,14 +218,22 @@ a {
         z-index: 1;
     }
     
-    @media (max-width: 980px)
+    h5 {
+        font-size: 5vh;
+    }
+    
+    p {
+        font-size: 3vh;
+    }
+
+    @media (max-aspect-ratio: 11/7)
     {
         h5 {
-            font-size: 2em;
+            font-size: 3vh;
         }
-    
+        
         p {
-            font-size: 1.5em;
+            font-size: 2.5vh;
         }
     }
 }
@@ -232,29 +242,24 @@ a {
 
 main {
     background-color:#151515;
-
-    p {
-        text-align: center;
-    }
-
-    h1, button {
-        font-size: 4vw;
-    }
-    
-    h2 {
-        font-size: 1.5vw;
-    }
 }
 
 .title {
+    font-size: 4vw;
     text-align: center;
+}
+
+@media (max-aspect-ratio: 11/7)
+{
+    .title {
+        font-size: 7vw;
+    }
 }
 
 .project {
 	position: relative;
 	margin: 1vw auto auto auto;
 	width: 75%;
-    //max-width: 800px;
 	font-size: 1.5vw;
 
     img {
@@ -349,6 +354,23 @@ main {
 }
 
 
+@media (max-aspect-ratio: 11/7)
+{    
+    .project {
+        width: 90%;
+        font-size: 150%;
+
+
+        div.project_overlay {
+            p {
+                width: 55%;
+                line-height: 2.25vw;
+            }
+        }
+    }
+}
+
+
 /* ------------------- ABOUT ----------------------------------------- */
 
 .about {
@@ -373,14 +395,14 @@ main {
     }
 
     @media (max-width: 980px)
-    {
-        h2 {
-            font-size: 3em;
-        }
-    
+    {    
         p {
-            font-size: 2em;
+            font-size: 5vw;
             text-align: center;
+        }
+
+        a {
+            font-size: 5vw;
         }
     }
 
@@ -418,7 +440,12 @@ main {
             flex-wrap: wrap;
             align-items: center;
             align-content: space-around;
-            height: 30vh;
+            max-height: 20vh;
+
+            p {
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
         }
     
         .image {

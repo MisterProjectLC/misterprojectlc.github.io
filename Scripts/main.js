@@ -62,7 +62,8 @@ class Main extends React.Component {
         this.setState({dropdownMenu: !this.state.dropdownMenu});
         if (this.state.dropdownMenu) {
             $("#links a").css("opacity", "100%");
-            console.log($("#language .header_button").css("opacity"));
+            $("#links a").css("pointer-events", "all");
+            $("#links").css("pointer-events", "all");
             if ($("#language .header_button").css("opacity") == 0) {
                 $("#links").css("height", "30vh");
                 $("#languageDropdown").css("opacity", "100%");
@@ -73,6 +74,8 @@ class Main extends React.Component {
         } else {
             $("#links").css("height", "0vh");
             $("#links a").css("opacity", "0%");
+            $("#links").css("pointer-events", "none");
+            $("#links a").css("pointer-events", "none");
         }
 
         return false;
