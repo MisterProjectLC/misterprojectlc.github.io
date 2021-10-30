@@ -1,5 +1,17 @@
 var Projects = [
     {
+        "name": "Kinetic",
+        "link": "https://misterproject.itch.io/kinetic",
+        "category": "itchio",
+        "link2": null,
+        "category2": null,
+        "video": null,
+        "carousel": true,
+        "descriptions":{"Português":"FPS frenético com gráficos low-poly e loadouts customizáveis, que se passa em uma estação espacial.",
+                      "English":"Fast-paced low-poly movement shooter with customizable loadouts, set in a space station.",
+                      "Deutsch":"Ego-Shooter mit schneller und flüssiger Bewegung, Low-Poly Grafik und konfigurierbaren Loadouts, der in einer Raumstation spielt."}
+    },
+    {
         "name": "MechaShift",
         "link": "https://misterproject.itch.io/mechashift",
         "category": "itchio",
