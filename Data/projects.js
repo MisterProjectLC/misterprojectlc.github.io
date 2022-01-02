@@ -5,7 +5,7 @@ var Projects = [
         "category": "itchio",
         "link2": null,
         "category2": null,
-        "video": null,
+        "video": "https://www.youtube.com/embed/htiPoM5AEUc",
         "carousel": true,
         "descriptions":{"Português":"FPS frenético com gráficos low-poly e loadouts customizáveis, que se passa em uma estação espacial.",
                       "English":"Fast-paced low-poly movement shooter with customizable loadouts, set in a space station.",
