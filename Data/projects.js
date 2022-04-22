@@ -1,4 +1,29 @@
 var Projects = [
+       {
+          "name": "Bloodrush",
+          "link": "https://misterproject.itch.io/bloodrush",
+          "category": "itchio",
+          "link2": "https://ldjam.com/events/ludum-dare/50/bloodrush",
+          "category2": "LudumDare",
+          "category2": null,
+          "video": "https://www.youtube.com/embed/w0jRHZMN46M",
+          "carousel": true,
+          "descriptions":{"Português":"Hack n' slash frenético de boss rush com uma estética de dark fantasy. Extra LD50.",
+                        "English":"Fast-paced boss rush game with a dark fantasy-inspired aesthetic. Extra LD50.",
+                        "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik. Extra LD50."}
+      },
+      {
+        "name": "Typing at Midnight",
+        "link": "https://misterproject.itch.io/typing-at-midnight",
+        "category": "itchio",
+        "link2": "https://ldjam.com/events/ludum-dare/50/typing-at-midnight",
+        "category2": "LudumDare",
+        "video": null,
+        "carousel": false,
+        "descriptions":{"Português":"Um curto jogo narrativo sobre ansiedade e dificuldade em expressar certas emoções. Extra LD50.",
+                      "English":"A short, anxious and slightly cringy narrative game. Extra LD50.",
+                      "Deutsch":"Ein kurzes narrativ-orientiertes Spiel über Ängstlichkeit und die Schwierigkeit, bestimmte Emotionen auszudrücken. Extra LD50."}
+    },
     {
         "name": "Kinetic",
         "link": "https://misterproject.itch.io/kinetic",
