@@ -192,7 +192,7 @@ class Main extends React.Component {
                                 <p><a href="https://www.linkedin.com/in/danilo-isamu-inafuku-b947771aa/" target="_blank">LinkedIn</a></p>
                                 <p><a href="https://www.youtube.com/channel/UCmW6TidbLs2qqpRgW7leT5Q" target="_blank">Youtube</a></p>
                                 <p><a href="https://misterproject.itch.io/" target="_blank">itch.io</a></p>
-                                <p><a href="https://gamejolt.com/@MisterProject" target="_blank">Gamejolt</a></p>
+                                <p><a href="https://github.com/MisterProjectLC" target="_blank">GitHub</a></p>
                             </div>
                         </div>
                         <div class="image">

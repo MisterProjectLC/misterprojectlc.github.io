@@ -19,7 +19,6 @@ var Projects = [
         "link2": "https://ldjam.com/events/ludum-dare/50/typing-at-midnight",
         "category2": "LudumDare",
         "video": null,
-        "carousel": false,
         "descriptions":{"Português":"Um curto jogo narrativo sobre ansiedade e dificuldade em expressar certas emoções. Extra LD50.",
                       "English":"A short, anxious and slightly cringy narrative game. Extra LD50.",
                       "Deutsch":"Ein kurzes narrativ-orientiertes Spiel über Ängstlichkeit und die Schwierigkeit, bestimmte Emotionen auszudrücken. Extra LD50."}
@@ -107,7 +106,6 @@ var Projects = [
       "link2": null,
       "category2": null,
       "video": null,
-      "carousel": true,
       "descriptions":{"Português":"Um metroidvania-like absurdista em um posto de gasolina intergalático.",
                     "English":"An absurdist metroidvania-like game set in an intergalactic gas station. Portuguese only.",
                     "Deutsch":"Ein absurdes metroidvania-like Spiel, das in einer intergalaktischen Tankstelle spielt. Nur auf Portugiesisch."}
