@@ -5,7 +5,6 @@ var Projects = [
           "category": "itchio",
           "link2": "https://ldjam.com/events/ludum-dare/50/bloodrush",
           "category2": "LudumDare",
-          "category2": null,
           "video": "https://www.youtube.com/embed/w0jRHZMN46M",
           "carousel": true,
           "descriptions":{"Português":"Hack n' slash frenético de boss rush com uma estética de dark fantasy. Extra LD50.",
