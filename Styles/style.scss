@@ -1,10 +1,9 @@
-
-@mixin column-count($x){ 
+@mixin column-count($x) { 
     -webkit-column-count: 2;
     -moz-column-count: $x;
     column-count: $x;
-  }
-  
+}
+
 
 
 @font-face {
@@ -180,7 +179,7 @@ a {
                 transition: opacity 0.5s;
                 pointer-events: none;
             }
-         }
+        }
     }
 
     @media (max-aspect-ratio: 5/7)
@@ -257,10 +256,10 @@ main {
 }
 
 .project {
-	position: relative;
-	margin: 1vw auto auto auto;
-	width: 75%;
-	font-size: 1.5vw;
+    position: relative;
+    margin: 1vw auto auto auto;
+    width: 75%;
+    font-size: 1.5vw;
 
     img {
         display: block;
@@ -274,9 +273,9 @@ main {
         left: 0%;
         right: 0%;
         bottom: 0%;
-      display: flex;
-      padding: .6vw .75vw;
-      opacity: 0;
+        display: flex;
+        padding: .6vw .75vw;
+        opacity: 0;
         background: rgba(0, 0, 0, 0.95);
         transition: all .1s linear;
         color: #151515;
@@ -287,7 +286,7 @@ main {
 
         iframe {
             position: absolute;
-              top: 3%;
+            top: 3%;
               left: 1%;
             width: 40%;
             height: 90%;
@@ -328,12 +327,13 @@ main {
               margin: 0px;
               padding: 0px;
             clear: both;
-            display: table-column;
-            column-count: 2;
+            display: flex;
+            flex-direction: row;
+            gap: 1vw;
 
             a {
                 position:static;
-                align-items: flex-end;
+                //align-items: flex-end;
 
                 img {
                     opacity: inherit;
@@ -350,7 +350,7 @@ main {
 }
 
 .project:hover div.project_overlay, .project:active div.project_overlay {
-	opacity: 1;
+ opacity: 1;
 }
 
 
