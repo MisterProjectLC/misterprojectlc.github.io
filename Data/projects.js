@@ -1,4 +1,13 @@
 var Projects = [
+        {
+        "name": "ColorHex",
+        "link": "https://misterproject.itch.io/colorhex",
+        "category": "itchio",
+        "carousel": true,
+        "descriptions":{"Português":"Jogo de ação top-down com estética inspirada em art deco. Role para trocar sua face no dado e acertar inimigos diferentes! GMTK2022.",
+                      "English":"Top-down action game with a Roaring 20s aesthetic. Roll to change your die face and hit certain enemies! GMTK2022.",
+                      "Deutsch":"Top-Down Aktion-Spiel mit einer Roaring 20s Ästhetik. Rolle, um deine Würfelseite zu ändern und verschiedene Gegner zu treffen! GMTK2022."}
+        },
        {
           "name": "Bloodrush",
           "link": "https://misterproject.itch.io/bloodrush",
@@ -41,7 +50,6 @@ var Projects = [
         "link2": "https://ldjam.com/events/ludum-dare/49/mechashift",
         "category2": "LudumDare",
         "video": null,
-        "carousel": true,
         "descriptions":{"Português":"Role, teleporte e pule com foguetes para atravessar a cidade com um robô instável! LD49.",
                       "English":"Roll, teleport and rocket-jump your way through the city with this unstable, makeshift robot! LD49.",
                       "Deutsch":"Rolle, teleportiere und Rakete springe, um die Stadt mit einem instabilen Roboter zu überqueren! LD49."}
@@ -150,9 +158,9 @@ var Projects = [
       "link2": null,
       "category2": null,
       "video": null,
-      "descriptions":{"Português":"Jogo de ação com controles limitados. Mape e remape-os em tempo real para se adaptar para diferentes situações.",
-                    "English":"Action game with limited control keys. Bind and rebind them in real-time to adapt to different situations.",
-                    "Deutsch":"Aktionsspiel mit limitierten Kontrolltasten. Binde und neu binde sie in Echtzeit, um sich an verschiedene Situationen anzupassen."}
+      "descriptions":{"Português":"Jogo de ação com controles limitados. Mape e remape-os em tempo real para se adaptar para diferentes situações. GMTK2020.",
+                    "English":"Action game with limited control keys. Bind and rebind them in real-time to adapt to different situations. GMTK2020.",
+                    "Deutsch":"Aktionsspiel mit limitierten Kontrolltasten. Binde und neu binde sie in Echtzeit, um sich an verschiedene Situationen anzupassen. GMTK2020."}
     },
     {
       "name": "Abracajur",
