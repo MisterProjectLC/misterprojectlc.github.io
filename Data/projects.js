@@ -95,6 +95,20 @@ var Projects = [
     },
 
     {
+        "name": "Void Wizardry",
+        "type":"Game",
+        "link": "https://docs.google.com/document/d/13DTYPp5-9qGjJu8O9aQw1JTNA2Mo9-1XHpryfc1Re4k/edit?usp=sharing",
+        "category": "GoogleDocs",
+        "link2": null,
+        "category2": null,
+        "video": null,
+        "carousel": false,
+        "descriptions":{"Português":"Um curto jogo de cartas em que dois mestres feiticeiros duelam para esvaziar suas mentes (esgotarem seus decks).",
+                      "English":"A short card game in which two master wizards duel to empty their minds (run out of cards in their decks).",
+                      "Deutsch":"Ein kurzes Kartenspiel, in dem zwei Meisterzauberer duelieren sich, um ihre Geister (ihre Decks) zu leeren."}
+    },
+
+    {
       "name": "ThaumOS",
       "link": "https://misterproject.itch.io/thaumos",
       "category": "itchio",
