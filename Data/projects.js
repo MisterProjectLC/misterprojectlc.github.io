@@ -1,5 +1,15 @@
 var Projects = [
-        {
+    {
+      "name": "Bloodrush - Undying Wish",
+      "link": "https://lightmancerstudios.itch.io/bloodrush",
+      "category": "itchio",
+      "video": "https://www.youtube.com/embed/efct2pRuT20",
+      "carousel": true,
+      "descriptions":{"Português":"Hack n' slash frenético com uma estética de dark fantasy.",
+                    "English":"Top-down hack n' slash game with a dark fantasy aesthetic.",
+                    "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik."}
+      },
+      {
         "name": "ColorHex",
         "link": "https://misterproject.itch.io/colorhex",
         "category": "itchio",
@@ -7,18 +17,17 @@ var Projects = [
         "descriptions":{"Português":"Jogo de ação top-down com estética inspirada em art deco. Role para trocar sua face no dado e acertar inimigos diferentes! GMTK2022.",
                       "English":"Top-down action game with a Roaring 20s aesthetic. Roll to change your die face and hit certain enemies! GMTK2022.",
                       "Deutsch":"Top-Down Aktion-Spiel mit einer Roaring 20s Ästhetik. Rolle, um deine Würfelseite zu ändern und verschiedene Gegner zu treffen! GMTK2022."}
-        },
-       {
-          "name": "Bloodrush",
-          "link": "https://misterproject.itch.io/bloodrush",
-          "category": "itchio",
-          "link2": "https://ldjam.com/events/ludum-dare/50/bloodrush",
-          "category2": "LudumDare",
-          "video": "https://www.youtube.com/embed/Fm0YV71B39I",
-          "carousel": true,
-          "descriptions":{"Português":"Hack n' slash frenético de boss rush com uma estética de dark fantasy. Extra LD50.",
-                        "English":"Fast-paced boss rush game with a dark fantasy-inspired aesthetic. Extra LD50.",
-                        "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik. Extra LD50."}
+      },
+      {
+           "name": "Bloodrush",
+           "link": "https://misterproject.itch.io/bloodrush",
+           "category": "itchio",
+           "link2": "https://ldjam.com/events/ludum-dare/50/bloodrush",
+           "category2": "LudumDare",
+           "video": "https://www.youtube.com/embed/Fm0YV71B39I",
+           "descriptions":{"Português":"Hack n' slash frenético de boss rush com uma estética de dark fantasy. Extra LD50.",
+                         "English":"Fast-paced boss rush game with a dark fantasy-inspired aesthetic. Extra LD50.",
+                         "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik. Extra LD50."}
       },
       {
         "name": "Typing at Midnight",
