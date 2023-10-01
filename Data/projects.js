@@ -1,4 +1,15 @@
 var Projects = [
+  {
+    "name": "Laser Grid",
+    "link": "https://misterproject.itch.io/laser-grid",
+    "category": "itchio",
+    "link2": "https://ldjam.com/events/ludum-dare/54/laser-grid",
+    "category2": "LudumDare",
+    "carousel": true,
+    "descriptions":{"Português":"Redirecione lasers em um jogo de puzzle estiloso e frenético. LD54 Compo.",
+                  "English":"Redirect lasers in a stylish, fast-paced puzzle game about lasers... and grids. LD54 Compo.",
+                  "Deutsch":"Lenke Laser um, in diesem stilvollen und schnellebigen Puzzle-Spiel. LD54 Compo."}
+    },
     {
     "name": "Courrier de Souvenirs",
     "link": "https://misterproject.itch.io/courrier-de-souvenirs",
