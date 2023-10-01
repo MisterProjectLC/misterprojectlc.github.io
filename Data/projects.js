@@ -41,17 +41,6 @@ var Projects = [
                       "Deutsch":"Top-Down Aktion-Spiel mit einer Roaring 20s Ästhetik. Rolle, um deine Würfelseite zu ändern und verschiedene Gegner zu treffen! GMTK2022."}
       },
       {
-           "name": "Bloodrush",
-           "link": "https://misterproject.itch.io/bloodrush",
-           "category": "itchio",
-           "link2": "https://ldjam.com/events/ludum-dare/50/bloodrush",
-           "category2": "LudumDare",
-           "video": "https://www.youtube.com/embed/Fm0YV71B39I",
-           "descriptions":{"Português":"Hack n' slash frenético de boss rush com uma estética de dark fantasy. Extra LD50.",
-                         "English":"Fast-paced boss rush game with a dark fantasy-inspired aesthetic. Extra LD50.",
-                         "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik. Extra LD50."}
-      },
-      {
         "name": "Typing at Midnight",
         "link": "https://misterproject.itch.io/typing-at-midnight",
         "category": "itchio",
@@ -163,17 +152,6 @@ var Projects = [
                     "Deutsch":"Ein absurdes metroidvania-like Spiel, das in einer intergalaktischen Tankstelle spielt. Nur auf Portugiesisch."}
     },
     {
-      "name": "Cifra",
-      "link": "https://gamejolt.com/games/cifra/569637",
-      "category": "Gamejolt",
-      "link2": null,
-      "category2": "",
-      "video": "https://www.youtube.com/embed/TSDcv-iXQqE",
-      "descriptions":{"Português":"Jogo narrativo de criptografia em um país em guerra durante os 1940s.",
-                    "English":"Narrative-focused cryptography-themed game, set in a wartorn country during the 1940s. Portuguese only.",
-                    "Deutsch":"Narrativ-orientiertes Kryptographie-Themenspiel, das in einem kriegsgeplagten Land während den 1940s spielt. Nur auf Portugiesisch."}
-    },
-    {
       "name": "Minecraft Among Us",
       "type":"Stuff",
       "link": "https://github.com/MisterProjectLC/among_us_minecraft",
@@ -252,17 +230,5 @@ var Projects = [
         "descriptions":{"Português":"Um jogo para 3-9 jogadores sobre superheróis, com controle de área, diplomacia e estratégia.",
                       "English":"A 3-9-player game about superheroes, with area control, diplomacy and strategy. Only in Portuguese.",
                       "Deutsch":"Ein Spiel für 3-8 Spieler über Superhelden, mit Gebietskontrolle, Diplomatie und Strategie. Nur auf Portugiesisch."}
-    },
-
-    {
-      "name": "ChronosArena",
-      "link": "https://misterproject.itch.io/chronos-arena",
-      "category": "itchio",
-      "link2": null,
-      "category2": "Gamejolt",
-      "video": "",
-      "descriptions":{"Português":"Jogo de cartas baseado em heróis com turnos simultâneos e jogadas preditivas.",
-                    "English":"Hero-based card game with simultaneous turns and predicting plays. Portuguese only.",
-                    "Deutsch":"Charakter-basiertes Kartenspiel mit gleichzeitigen Runden und Fokus auf der Vorhersage des Gegners. Nur auf Portugiesisch."}
     }
   ]
