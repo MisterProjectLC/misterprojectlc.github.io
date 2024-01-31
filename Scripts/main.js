@@ -128,7 +128,8 @@ class Main extends React.Component {
 
         const aboutMe = <About lang={this.state.language} texts={this.about}/>
 
-        const curriculo = (this.state.language === "Português") ? <p><a href="/Data/Currículo - Jogos.pdf" download>Currículo</a></p> : "";
+        const curriculo = (this.state.language === "English") ? <p><a href="/Data/Resume - Games.pdf" download>Resume</a></p> : 
+            ((this.state.language === "Português") ? <p><a href="/Data/Currículo - Jogos.pdf" download>Currículo</a></p> : "");
 
         return (<div>
             <div class="tinyWhitespace"/>
