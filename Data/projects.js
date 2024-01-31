@@ -16,13 +16,15 @@ var Projects = [
     "link2": "https://ldjam.com/events/ludum-dare/53/courrier-de-souvenirs",
     "category2": "LudumDare",
     "descriptions":{"Português":"Ajude Hugo e o carteiro a entregar presentes pela galáxia. Converse e conheça os habitantes particulares de cada planeta, e descubra mais sobre suas vidas e particularidades.",
-                  "English":"Help Hugo and the Courrier to deliver the gifts between planets. Talk and meet the peculiar inhabitants of the galaxy to discover about their life and intricacies.",
+                  "English":"Help Hugo and the Courier deliver gifts across the galaxy! Talk and meet its peculiar inhabitants to learn more about their lives and intricacies.",
                   "Deutsch":"Hilfe Hugo und den Briefträger, um Geschenke durch die Galaxie zu vertreiben. Rede und treffe mit den Einwohnern des Kosmos, und erfahre mehr über ihre Leben und Marotten."}
     },
     {
       "name": "Bloodrush - Undying Wish",
-      "link": "https://lightmancerstudios.itch.io/bloodrush",
-      "category": "itchio",
+      "link": "https://store.steampowered.com/app/2471390/Bloodrush_Undying_Wish/",
+      "category": "Steam",
+      "link2": "https://lightmancerstudios.itch.io/bloodrush",
+      "category2": "itchio",
       "video": "https://www.youtube.com/embed/him02geZ4ro",
       "carousel": true,
       "descriptions":{"Português":"Hack n' slash frenético com uma estética de dark fantasy.",
