@@ -25,7 +25,7 @@ var Projects = [
       "category": "Steam",
       "link2": "https://lightmancerstudios.itch.io/bloodrush",
       "category2": "itchio",
-      "video": "https://www.youtube.com/embed/him02geZ4ro",
+      "video": "https://www.youtube.com/embed/OLq7ob-uQxc?si=7BKm5Pl7HgjmgP1h",
       "carousel": true,
       "descriptions":{"Português":"Hack n' slash frenético com uma estética de dark fantasy.",
                     "English":"Top-down hack n' slash game with a dark fantasy aesthetic.",
