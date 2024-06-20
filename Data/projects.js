@@ -19,7 +19,7 @@ var Projects = [
                   "English":"Help Hugo and the Courier deliver gifts across the galaxy! Talk and meet its peculiar inhabitants to learn more about their lives and intricacies.",
                   "Deutsch":"Hilfe Hugo und den Briefträger, um Geschenke durch die Galaxie zu vertreiben. Rede und treffe mit den Einwohnern des Kosmos, und erfahre mehr über ihre Leben und Marotten."}
     },
-    
+    {
       "name": "Bloodrush - Undying Wish",
       "link": "https://store.steampowered.com/app/2471390/Bloodrush_Undying_Wish/",
       "category": "Steam",
