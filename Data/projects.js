@@ -19,13 +19,13 @@ var Projects = [
                   "English":"Help Hugo and the Courier deliver gifts across the galaxy! Talk and meet its peculiar inhabitants to learn more about their lives and intricacies.",
                   "Deutsch":"Hilfe Hugo und den Briefträger, um Geschenke durch die Galaxie zu vertreiben. Rede und treffe mit den Einwohnern des Kosmos, und erfahre mehr über ihre Leben und Marotten."}
     },
-    {
+    
       "name": "Bloodrush - Undying Wish",
       "link": "https://store.steampowered.com/app/2471390/Bloodrush_Undying_Wish/",
       "category": "Steam",
       "link2": "https://lightmancerstudios.itch.io/bloodrush",
       "category2": "itchio",
-      "video": "https://www.youtube.com/embed/OLq7ob-uQxc?si=7BKm5Pl7HgjmgP1h",
+      "video": "https://www.youtube.com/embed/KnPZBk9khxg?si=BfiCBKsgu4TKqPmJ",
       "carousel": true,
       "descriptions":{"Português":"Hack n' slash frenético com uma estética de dark fantasy.",
                     "English":"Top-down hack n' slash game with a dark fantasy aesthetic.",
