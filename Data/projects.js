@@ -12,6 +12,16 @@ var Projects = [
                   "Deutsch":"Schnellebiges Hack n' Slash mit einer Dark-Fantasy-Ästhetik."}
   },
   {
+    "name": "Hit It Back",
+    "link": "https://store.steampowered.com/app/3487620/Hit_It_Back/",
+    "category": "Steam",
+    "video": "https://www.youtube.com/embed/4B8jwjOln44?si=_e0HBn5orFkJyDKk",
+    "carousel": true,
+    "descriptions":{"Português":"Docufictional sport afrogame about street-style cricket.",
+                  "English":"Afrogame docuficional esportivo de cricket urbano.",
+                  "Deutsch":"Dokumentar-Sport-Afrospiel über Stadtkricket."}
+  },
+  {
     "name": "The Two Body Problem",
     "link": "https://misterproject.itch.io/the-two-body-problem",
     "category": "itchio",
