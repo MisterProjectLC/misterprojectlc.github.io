@@ -17,9 +17,9 @@ var Projects = [
     "category": "Steam",
     "video": "https://www.youtube.com/embed/4B8jwjOln44?si=_e0HBn5orFkJyDKk",
     "carousel": true,
-    "descriptions":{"Português":"Docufictional sport afrogame about street-style cricket.",
-                  "English":"Afrogame docuficional esportivo de cricket urbano.",
-                  "Deutsch":"Dokumentar-Sport-Afrospiel über Stadtkricket."}
+    "descriptions":{"Português":"Afrogame docuficional esportivo de cricket urbano. Partidas rápidas e casuais entre dois jogadores.",
+                  "English":"Docufictional sport afrogame about street-style cricket. Quick, carefree two-player matches.",
+                  "Deutsch":"Dokumentar-Sport-Afrospiel über Stadtkricket. Kurze und lässige zwei-Spieler Matchs."}
   },
   {
     "name": "The Two Body Problem",
