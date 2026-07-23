@@ -18,14 +18,14 @@ class Main extends React.Component {
                             "Language":{"English":"Language","Português":"Idioma","Deutsch":"Sprache"},
                         };
         
-        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I like making games; I'm not so good at playing them.",
-                                "I'm currently a Computer Science student at UFSCAR Sorocaba, a federal university here in Brazil. Other than studying and developing games, I also dabble in writing stories and reviews sometimes (they're all bad).",
+        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I'm a game developer based in Brazil.",
+                                "I currently work as the creative director, main programmer and writer at Lightmancer Studios, and I also develop BRAZILIAN DRUG DEALER 2 with Joeveno as a freelancer.",
                                 "Anyway, here's my contact information: "],
-                    "Português":["Oi, meu nome é Danilo Isamu, mas também uso o nick MisterProject nas I N T E R W E B S para me comunicar. Eu gosto de criar jogos; não sou tão bom em jogá-los.",
-                                "Atualmente estudo Ciência da Computação na UFSCAR Sorocaba. Além de estudar e desenvolver jogos, às vezes me arrisco a escrever reviews e histórias (todas são ruins).",
+                    "Português":["Oi, meu nome é Danilo Isamu, mas também uso o nick MisterProject nas I N T E R W E B S para me comunicar. Sou um desenvolvedor de jogos daqui do Brasil.",
+                                "Atualmente, trabalho como diretor criativo, programador e escritor na Lightmancer Studios, e também desenvolvo AVIÃOZINHO DO TRÁFICO 2 com o Joeveno como freelancer.",
                                 "Enfim, aqui estão minhas informações de contato: "],
-                    "Deutsch":["Hi, ich heiße Dan Isamu, aber ich verwende manchmal auch den Spitzname MisterProject im Internet. Ich erstelle gerne Spiele; bin aber nicht so gut darin, sie zu spielen.",
-                                "Aktuell studiere ich Informatik an UFSCAR Sorocaba, eine Universität hier im Brasilien. Außer zu studieren und Spiele zu entwickeln, schreibe ich ab und zu Reviews und Geschichten (sie sind alle schlecht).",
+                    "Deutsch":["Hi, ich heiße Dan Isamu, aber ich verwende manchmal auch den Spitzname MisterProject im Internet. Ich bin ein Spiel-Entwickler aus Brasilien.",
+                                "Aktuell arbeite ich als Kreativdirektor, Hauptprogrammierer und Autor bei Lightmancer Studios, und ich entwickle auch BRAZILIAN DRUG DEALER 2 mit Joeveno als Freelancer.",
                                 "Oh, und übrigens, hier sind meine Kontaktdaten: "]}
         
         this.projectList = Projects;
