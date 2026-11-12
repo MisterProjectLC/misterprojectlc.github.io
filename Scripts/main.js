@@ -10,30 +10,26 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = { lang: 0, language:"English", dropdownMenu: false };
-        this.languageList = ["English", "Português", "Deutsch"];
-        this.generalUI = {"About":{"English":"About","Português":"Sobre","Deutsch":"Über"},
-                            "Videogames":{"English":"Videogames","Português":"Videogames","Deutsch":"Videospiele"},
-                            "Games":{"English":"Games","Português":"Jogos","Deutsch":"Spiele"},
-                            "Stuff":{"English":"Stuff","Português":"Outros","Deutsch":"Misc"},
-                            "Language":{"English":"Language","Português":"Idioma","Deutsch":"Sprache"},
+        this.languageList = ["English", "Português"];
+        this.generalUI = {"About":{"English":"About","Português":"Sobre"},
+                            "Godot":{"English":"Godot","Português":"Godot"},
+                            "Unity":{"English":"Unity","Português":"Unity"},
+                            "Design":{"English":"Game Design","Português":"Game Design"},
+                            "Language":{"English":"Language","Português":"Idioma"},
                         };
         
-        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I'm a game developer based in Brazil.",
-                                "I currently work as the creative director, main programmer and writer at Lightmancer Studios, and I'm also developing the game BRAZILIAN DRUG DEALER 2 with Joeveno as a freelancer.",
+        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I'm a game developer based in Brazil, specialized in developing and designing gameplay and combat systems.",
+                                "I currently work as Creative Director and Godot Developer at Lightmancer Studios.",
                                 "Anyway, here's my contact information: "],
-                    "Português":["Oi, meu nome é Danilo Isamu, mas também uso o nick MisterProject nas I N T E R W E B S para me comunicar. Sou um desenvolvedor de jogos daqui do Brasil.",
-                                "Atualmente, eu trabalho como o diretor criativo, programador e escritor na Lightmancer Studios, e também estou desenvolvendo o jogo AVIÃOZINHO DO TRÁFICO 2 com o Joeveno como freelancer.",
-                                "Enfim, aqui estão minhas informações de contato: "],
-                    "Deutsch":["Hi, ich heiße Dan Isamu, aber ich verwende manchmal auch den Spitzname MisterProject im Internet. Ich bin ein Spiel-Entwickler aus Brasilien.",
-                                "Aktuell arbeite ich als Kreativdirektor, Hauptprogrammierer und Autor bei Lightmancer Studios, und ich entwickle auch BRAZILIAN DRUG DEALER 2 mit Joeveno als Freelancer.",
-                                "Oh, und übrigens, hier sind meine Kontaktdaten: "]}
+                    "Português":["Opa! Meu nome é Danilo Isamu, mas você também pode me conhecer como MisterProject. Sou um desenvolvedor de jogos daqui do Brasil, especializado em desenvolver e projetar sistemas de gameplay e combate.",
+                                "Atualmente, trabalho como Diretor Criativo e Desenvolvedor Godot na Lightmancer Studios.",
+                                "Enfim, aqui estão minhas informações de contato: "]}
         
         this.projectList = Projects;
 
         this.languageClicked = this.languageClicked.bind(this);
         this.sandwichClicked = this.sandwichClicked.bind(this);
         this.mapProjects = this.mapProjects.bind(this);
-        console.log("Heroku app");
     }
 
     componentDidMount() {
@@ -111,25 +107,25 @@ class Main extends React.Component {
         });
 
 
-        const videogameProjects = this.mapProjects(this.projectList.filter(element => {
-            return !element.hasOwnProperty('type') || element["type"] === "Videogame";
+        const godotProjects = this.mapProjects(this.projectList.filter(element => {
+            return !element.hasOwnProperty('type') || element["type"] === "Godot";
         
         }));
 
-        const gameProjects = this.mapProjects(this.projectList.filter(element => {
-            return element.hasOwnProperty('type') && element["type"] === "Game";
+        const unityProjects = this.mapProjects(this.projectList.filter(element => {
+            return element.hasOwnProperty('type') && element["type"] === "Unity";
         
         }));
 
-        const stuffProjects = this.mapProjects(this.projectList.filter(element => {
-            return element.hasOwnProperty('type') && element["type"] === "Stuff";
+        const designProjects = this.mapProjects(this.projectList.filter(element => {
+            return element.hasOwnProperty('type') && element["type"] === "Game Design";
         
         }));
 
         const aboutMe = <About lang={this.state.language} texts={this.about}/>
 
-        const curriculo = (this.state.language === "English") ? <p><a href="/Data/Resume - Games.pdf" download>Resume</a></p> : 
-            ((this.state.language === "Português") ? <p><a href="/Data/Currículo - Jogos.pdf" download>Currículo</a></p> : "");
+        const curriculo = (this.state.language === "English") ? <p><a href="/Data/Resume - Dan Isamu.pdf" download>Resume</a></p> : 
+            ((this.state.language === "Português") ? <p><a href="/Data/Currículo - Dan Isamu.pdf" download>Currículo</a></p> : "");
 
         return (<div>
             <div class="tinyWhitespace"/>
@@ -138,9 +134,9 @@ class Main extends React.Component {
                 <h1><a href="#">Dan Isamu</a></h1>
                 <h2><a href="#">misterprojectlc.github.io</a></h2>
                 <div id="links">
-                    <a href="#videogames">{this.generalUI["Videogames"][this.state.language]}</a>
-                    <a href="#games">{this.generalUI["Games"][this.state.language]}</a>
-                    <a href="#stuff">{this.generalUI["Stuff"][this.state.language]}</a>
+                    <a href="#godot">{this.generalUI["Godot"][this.state.language]}</a>
+                    <a href="#unity">{this.generalUI["Unity"][this.state.language]}</a>
+                    <a href="#design">{this.generalUI["Design"][this.state.language]}</a>
                     <a href="#about">{this.generalUI["About"][this.state.language]}</a>
                     <a id="languageDropdown">{this.generalUI["Language"][this.state.language]}</a>
                 </div>
@@ -169,16 +165,16 @@ class Main extends React.Component {
                 </div>
                     
                 <div class="tinyWhitespace"/>
-                <h1 class="title" id="videogames">{this.generalUI["Videogames"][this.state.language]}</h1>
-                {videogameProjects}
+                <h1 class="title" id="godot">{this.generalUI["Godot"][this.state.language]}</h1>
+                {godotProjects}
 
                 <div class="tinyWhitespace"/>
-                <h1 class="title" id="games">{this.generalUI["Games"][this.state.language]}</h1>
-                {gameProjects}
+                <h1 class="title" id="unity">{this.generalUI["Unity"][this.state.language]}</h1>
+                {unityProjects}
 
                 <div class="tinyWhitespace"/>
-                <h1 class="title" id="stuff">{this.generalUI["Stuff"][this.state.language]}</h1>
-                {stuffProjects}
+                <h1 class="title" id="design">{this.generalUI["Design"][this.state.language]}</h1>
+                {designProjects}
 
 
                 <div class="smallWhitespace"></div>
