@@ -143,17 +143,6 @@ var Projects = [
                     "English":"Defense typing game with a neon-like aesthetic. Took the role of the project's Creative Director and Head Developer."}
     },
     {
-      "name": "Abracajur",
-      "type":"Godot",
-      "link": "https://misterproject.itch.io/abracajur",
-      "category": "itchio",
-      "link2": null,
-      "category2": "",
-      "video": "https://www.youtube.com/embed/uTrYnucfqP0",
-      "descriptions":{"Português":"Jogo de ação com magias aleatórias e improvisação estratégica. Atuei como Desenvolvedor Principal e Game Designer do projeto.",
-                    "English":"Action game with random spells and strategic improvisation. Took the role of the project's Head Developer and Game Designer."}
-    },
-    {
       "name": "Gravitoids",
       "type":"Unity",
       "link": "https://misterproject.itch.io/gravitoids",

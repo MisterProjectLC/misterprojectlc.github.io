@@ -1,36 +1,59 @@
-
 class Project extends React.Component {
     constructor(props) {
         super(props);
     }
-    
+
+    // Accepts either a plain string or an object keyed by language ({ en: "...", pt: "..." }),
+    // so title/roles can be translated the same way descriptions are.
+    localize(value) {
+        if (!value) return null;
+        if (typeof value === "string") return value;
+        return value[this.props.lang] || null;
+    }
+
     render() {
-        if (!this.props.descriptions[this.props.lang])
+        const { lang, descriptions, bg, onOpen } = this.props;
+
+        if (!descriptions[lang])
             return <div/>;
+
+        const title = this.localize(this.props.title);
+        const roles = this.localize(this.props.roles);
+        const roleLabel = this.localize(this.props.roleLabel) || "Role:";
+
+        const links = [
+            { href: this.props.link, category: this.props.category },
+            { href: this.props.link2, category: this.props.category2 }
+        ].filter(l => l.href);
+
         return (
-            <div className="project">
-            <div className="project_overlay">
-                {this.props.video && <iframe src={this.props.video} 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+            <article className="project">
+                <button
+                    type="button"
+                    className="project_thumbnail"
+                    onClick={onOpen}
+                    aria-label={title ? "Open " + title : "Open project"}>
+                    <img src={this.getBackground(bg)} alt=""/>
+                </button>
 
-                <p>{this.props.descriptions[this.props.lang]}</p>
+                <div className="project_body">
+                    {title && <h3 className="project_title">{title}</h3>}
 
-                {!this.props.link2 && <a href={this.props.link} target="_blank">
-                    <img src={this.getIcon(this.props.category)}/>
-                </a>}
+                    <p className="project_description">{descriptions[lang]}</p>
 
-                {this.props.link2 && <div className="project_overlay_2">
-                    <a href={this.props.link} target="_blank">
-                        <img src={this.getIcon(this.props.category)}/>
-                    </a>
+                    {roles && <p className="project_roles">
+                        <span className="project_roles_label">{roleLabel}</span> {roles}
+                    </p>}
+                </div>
 
-                    <a href={this.props.link2} target="_blank">
-                        <img src={this.getIcon(this.props.category2)}/>
-                    </a>
+                {links.length > 0 && <div className="project_links">
+                    {links.map((l, i) =>
+                        <a key={i} href={l.href} target="_blank" rel="noopener noreferrer">
+                            <img src={this.getIcon(l.category)} alt={l.category}/>
+                        </a>
+                    )}
                 </div>}
-            </div>
-            <img src={this.getBackground(this.props.bg)}/>
-        </div>
+            </article>
         );
     }
 
