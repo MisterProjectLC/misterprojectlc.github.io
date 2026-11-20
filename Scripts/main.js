@@ -18,12 +18,10 @@ class Main extends React.Component {
                             "Language":{"English":"Language","Português":"Idioma"},
                         };
         
-        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I'm a game developer based in Brazil, specialized in developing and designing gameplay and combat systems.",
-                                "I currently work as Creative Director and Godot Developer at Lightmancer Studios.",
-                                "Anyway, here's my contact information: "],
-                    "Português":["Opa! Meu nome é Danilo Isamu, mas você também pode me conhecer como MisterProject. Sou um desenvolvedor de jogos daqui do Brasil, especializado em desenvolver e projetar sistemas de gameplay e combate.",
-                                "Atualmente, trabalho como Diretor Criativo e Desenvolvedor Godot na Lightmancer Studios.",
-                                "Enfim, aqui estão minhas informações de contato: "]}
+        this.about = {"English":["Hey, I'm Dan Isamu, though I also go by the nick 'MisterProject' sometimes. I'm a game developer based in Brazil, specialized in developing, designing and refining gameplay loops and combat systems.",
+                                "I currently work as Creative Director and Godot Developer at Lightmancer Studios."],
+                    "Português":["Oi, meu nome é Danilo Isamu, mas também sou conhecido pelo nick 'MisterProject'. Sou um desenvolvedor de jogos brasileiro especializado em desenvolver e projetar loops de gameplay e sistemas de combate.",
+                                "Atualmente, trabalho como Diretor Criativo e Desenvolvedor Godot na Lightmancer Studios."]}
         
         this.projectList = Projects;
 
