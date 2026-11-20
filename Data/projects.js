@@ -8,8 +8,11 @@ var Projects = [
     "category2": "itchio",
     "video": "https://www.youtube.com/embed/_eCdCbvIygE?si=oO64BVXThbnweRLe",
     "carousel": true,
-    "descriptions":{"Português":"Hack n' slash roguelite frenético gótico, desenvolvido em Godot. Atuei como Diretor Criativo, Lead de Desenvolvimento e Escritor.",
-                  "English":"Top-down hack n' slash game with a dark fantasy aesthetic. Took the role of the project's Creative Director, Head Developer and Head Writer."}
+    "descriptions":{"Português":"Hack n' slash roguelite frenético gótico, desenvolvido em Godot.",
+                  "English":"Top-down hack n' slash game with a dark fantasy aesthetic."},
+    "roles":{"Português":"Diretor Criativo, Lead de Desenvolvimento e Escritor",
+                  "English":"Creative Director, Head Developer and Head Writer"}
+
   },
   {
     "name": "Hit It Back",
@@ -18,16 +21,18 @@ var Projects = [
     "category": "Steam",
     "video": "https://www.youtube.com/embed/4B8jwjOln44?si=_e0HBn5orFkJyDKk",
     "carousel": true,
-    "descriptions":{"Português":"Afrogame docuficional esportivo de cricket urbano. Partidas rápidas e casuais entre dois jogadores. Atuei como Desenvolvedor de Gameplay e Assistente de Game Design.",
-                  "English":"Docufictional sport afrogame about street-style cricket. Quick, carefree two-player matches. Took the role of the project's Gameplay Programmer and Game Design Assistant."}
+    "descriptions":{"Português":"Afrogame docuficional esportivo de cricket urbano. Partidas rápidas e casuais entre dois jogadores.",
+                  "English":"Docufictional sport afrogame about street-style cricket. Quick, carefree two-player matches."},
+    "roles":{"Português":"Desenvolvedor de Gameplay e Assistente de Game Design",
+                  "English":"Gameplay Programmer and Game Design Assistant"}
   },
   {
     "name": "The Two Body Problem",
     "type":"Game Design",
     "link": "https://misterproject.itch.io/the-two-body-problem",
     "category": "itchio",
-    "descriptions":{"Português":"Jogo narrativo sobre vulnerabilidade emocional para a Wild and Proud Godot Jam. Desenvolvi o jogo por completo.",
-                  "English":"Narrative-centric game about emotional vulnerability for the Wild and Proud Godot Jam. I developed the game in its entirety."}
+    "descriptions":{"Português":"Jogo narrativo sobre vulnerabilidade emocional para a Wild and Proud Godot Jam.",
+                  "English":"Narrative-centric game about emotional vulnerability for the Wild and Proud Godot Jam."}
   },
   {
     "name": "Laser Grid",
@@ -36,8 +41,8 @@ var Projects = [
     "category": "itchio",
     "link2": "https://ldjam.com/events/ludum-dare/54/laser-grid",
     "category2": "LudumDare",
-    "descriptions":{"Português":"Jogo de puzzle estiloso e frenético para a LD54 Compo. Desenvolvi o jogo por completo.",
-                  "English":"Sylish, fast-paced puzzle game, made for the LD54 Compo. I developed the game in its entirety."}
+    "descriptions":{"Português":"Jogo de puzzle estiloso e frenético.\nEntre os top 100 jogos para a Ludum Dare 54 Compo.",
+                  "English":"Stylish, fast-paced puzzle game.\nAmong the top 100 submissions for the Ludum Dare 54 Compo."}
     },
     {
     "name": "Courrier de Souvenirs",
@@ -46,8 +51,10 @@ var Projects = [
     "category": "itchio",
     "link2": "https://ldjam.com/events/ludum-dare/53/courrier-de-souvenirs",
     "category2": "LudumDare",
-    "descriptions":{"Português":"Jogo de narrativa feito para a LD53. Atuei como o Diretor Criativo, Desenvolvedor Principal, e Assistente de Narrativa do projeto.",
-                  "English":"Narrative-heavy game made for LD53. Took the role of the project's Creative Director, Head Developer and Assistant Writer."}
+    "descriptions":{"Português":"Jogo de narrativa feito para a LD53.",
+                  "English":"Narrative-heavy game made for LD53."},
+    "roles":{"Português":"Diretor Criativo, Desenvolvedor Principal, e Assistente de Narrativa",
+                  "English":"Creative Director, Head Developer and Assistant Writer"}
     },
     {
       "name": "ColorHex",
@@ -56,8 +63,10 @@ var Projects = [
       "category": "itchio",
       "video": "https://www.youtube.com/embed/0DDeqihziTM",
       "carousel": true,
-      "descriptions":{"Português":"Jogo de ação top-down com estética inspirada em art deco, feito para a GMTK2022. Atuei como Diretor Criativo e Desenvolvedor Principal do projeto.",
-                    "English":"Top-down action game with a Roaring 20s aesthetic. Took the role of the project's Creative Director and Head Developer."}
+      "descriptions":{"Português":"Jogo de ação top-down com estética inspirada em art deco, feito para a GMTK2022.",
+                    "English":"Top-down action game with a Roaring 20s aesthetic."},
+    "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
+                  "English":"Creative Director and Head Developer"}
     },
     {
         "name": "Kinetic",
@@ -68,8 +77,10 @@ var Projects = [
         "category2": null,
         "video": "https://www.youtube.com/embed/htiPoM5AEUc",
         "carousel": true,
-        "descriptions":{"Português":"FPS frenético com gráficos low-poly e loadouts customizáveis, que se passa em uma estação espacial. Atuei como o Diretor Criativo e Desenvolvedor Principal do projeto.",
-                      "English":"Fast-paced low-poly movement shooter with customizable loadouts, set in a space station. Took the role of the project's Creative Director and Head Developer."}
+        "descriptions":{"Português":"FPS frenético com gráficos low-poly e loadouts customizáveis, que se passa em uma estação espacial.",
+                      "English":"Fast-paced low-poly movement shooter with customizable loadouts, set in a space station."},
+        "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
+                  "English":"Creative Director and Head Developer"}
     },
 
     {
@@ -106,8 +117,10 @@ var Projects = [
       "category2": "LudumDare",
       "video": "https://www.youtube.com/embed/FGvM4UP8FkU",
       "carousel": true,
-      "descriptions":{"Português":"Jogo de puzzle em um ambiente de Sistema Operacional ala Windows 95, feito para a LD48. Atuei como Diretor Criativo, Desenvolvedor Principal e Escritor do projeto.",
-                    "English":"Unmask the conspiracy behind this Windows 95-esque Operating System. LD48. Took the role of the project's Creative Director, Head Developer and Head Writer.",}
+      "descriptions":{"Português":"Jogo de puzzle em um ambiente de Sistema Operacional ala Windows 95, feito para a LD48.",
+                    "English":"Unmask the conspiracy behind this Windows 95-esque Operating System. LD48."},
+        "roles":{"Português":"Diretor Criativo, Desenvolvedor Principal e Escritor",
+                  "English":"Creative Director, Head Developer and Head Writer"}
     },
     {
       "name": "Iporanga Space Station",
@@ -117,8 +130,10 @@ var Projects = [
       "link2": null,
       "category2": null,
       "video": null,
-      "descriptions":{"Português":"Um metroidvania-like absurdista em um posto de gasolina intergalático. Atuei como Desenvolvedor Principal, Game Designer e Level Designer do projeto.",
-                    "English":"An absurdist metroidvania-like game set in an intergalactic gas station. Took the role of the project's Head Developer, Game Designer and Level Designer."}
+      "descriptions":{"Português":"Um metroidvania-like absurdista em um posto de gasolina intergalático.",
+                    "English":"An absurdist metroidvania-like game set in an intergalactic gas station."},
+        "roles":{"Português":"Desenvolvedor Principal, Game Designer e Level Designer",
+                  "English":"Head Developer, Game Designer and Level Designer"}
     },
     {
       "name": "Minecraft Among Us",
@@ -139,8 +154,10 @@ var Projects = [
       "link2": "https://gotm.io/misterproject/lightstreak",
       "category2": "Gotm",
       "video": "https://www.youtube.com/embed/eK5wpTAujIg",
-      "descriptions":{"Português":"Jogo de digitação e defesa com uma estética neon. Atuei como o Diretor Criativo e Desenvolvedor Principal do projeto.",
-                    "English":"Defense typing game with a neon-like aesthetic. Took the role of the project's Creative Director and Head Developer."}
+      "descriptions":{"Português":"Jogo de digitação e defesa com uma estética neon.",
+                    "English":"Defense typing game with a neon-like aesthetic."},
+        "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
+                  "English":"Creative Director and Head Developer"}
     },
     {
       "name": "Gravitoids",
@@ -150,7 +167,7 @@ var Projects = [
       "link2": "https://gamejolt.com/games/gravitoids/468599",
       "category2": "Gamejolt",
       "video": "https://www.youtube.com/embed/sXLI4fMc6Z4",
-      "descriptions":{"Português":"Jogo no estilo de Asteroids - controle gravidade para atrapalhar e destruir inimigos. Desenvolvi o jogo por completo.",
-                    "English":"Asteroids-esque game - control gravity to disrupt and destroy enemies. I developed the game in its entirety."}
+      "descriptions":{"Português":"Jogo no estilo de Asteroids - controle gravidade para atrapalhar e destruir inimigos.",
+                    "English":"Asteroids-esque game - control gravity to disrupt and destroy enemies."}
     }
   ]

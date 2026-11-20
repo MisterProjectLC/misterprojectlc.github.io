@@ -82,7 +82,7 @@ class Main extends React.Component {
         return (<div className="project_list">
             {filteredList.map(element => {
                 return (
-                    <Project lang={this.state.language}
+                    <Project lang={this.state.language} title ={element["name"]} roles={element["roles"]}
                     descriptions={element["descriptions"]} video={element["video"]}
                     link={element["link"]} category={element["category"]}
                     link2={element["link2"]} category2={element["category2"]} bg={element["name"]}/>

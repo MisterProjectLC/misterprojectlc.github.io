@@ -19,6 +19,7 @@ class Project extends React.Component {
 
         const title = this.localize(this.props.title);
         const roles = this.localize(this.props.roles);
+        const description = this.localize(this.props.descriptions);
         const roleLabel = this.localize(this.props.roleLabel) || "Role:";
 
         const links = [
@@ -39,7 +40,7 @@ class Project extends React.Component {
                 <div className="project_body">
                     {title && <h3 className="project_title">{title}</h3>}
 
-                    <p className="project_description">{descriptions[lang]}</p>
+                    <p className="project_description">{description}</p>
 
                     {roles && <p className="project_roles">
                         <span className="project_roles_label">{roleLabel}</span> {roles}
@@ -58,7 +59,7 @@ class Project extends React.Component {
     }
 
     getBackground(name) {
-        return "Images/Background/" + name + ".png";
+        return "Images/Background/Square/" + name + ".png";
     }
 
     getIcon(name) {
