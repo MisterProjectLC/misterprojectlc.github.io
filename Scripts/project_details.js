@@ -60,11 +60,12 @@ class ProjectDetails extends React.Component {
     }
 
     render() {
-        const { descriptions, video, tags, onClose } = this.props;
+        const { descriptions, video, onClose } = this.props;
 
         const title = this.localize(this.props.name);
         const description = this.localize(descriptions);
         const work = this.localize(this.props.work);
+        const tags = this.localize(this.props.tags);
 
         const links = [
             { href: this.props.link, category: this.props.category },
@@ -83,6 +84,14 @@ class ProjectDetails extends React.Component {
 
                     <div className="details_media">
                         <img src={this.getImage()} alt=""/>
+
+                        {this.props.video && 
+                        <div className="details_video">
+                            <iframe src={this.props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+                            gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                        }
                     </div>
 
                     <div className="details_info">
