@@ -9,7 +9,7 @@ $(document).ready(function(){
 class Main extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { lang: 0, language:"English", dropdownMenu: false };
+        this.state = { lang: 0, language:"English", dropdownMenu: false, selected: null };
         this.languageList = ["English", "Português"];
         this.generalUI = {"About":{"English":"About","Português":"Sobre"},
                             "Godot":{"English":"Godot","Português":"Godot"},
@@ -81,9 +81,13 @@ class Main extends React.Component {
             {filteredList.map(element => {
                 return (
                     <Project lang={this.state.language} title ={element["name"]} roles={element["roles"]}
+                    roleLabel={{"Português":"Cargo: ", "English":"Role: "}}
                     descriptions={element["descriptions"]} video={element["video"]}
                     link={element["link"]} category={element["category"]}
-                    link2={element["link2"]} category2={element["category2"]} bg={element["name"]}/>
+                    link2={element["link2"]} category2={element["category2"]} bg={element["name"]} 
+                    onOpen={() => {
+                        this.setState({ selected: element });
+                    }}/>
                 );
             })};
         </div>);
@@ -125,7 +129,7 @@ class Main extends React.Component {
         const aboutMe = <About lang={this.state.language} texts={this.about}/>
 
         const curriculo = (this.state.language === "English") ? <p><a href="/Data/Resume - Dan Isamu.pdf" download>Resume</a></p> : 
-            ((this.state.language === "Português") ? <p><a href="/Data/Currículo - Dan Isamu.pdf" download>Currículo</a></p> : "");
+            ((this.state.language === "Português") ? <p><a href="/Data/Curriculo - Dan Isamu.pdf" download>Currículo</a></p> : "");
 
         return (<div>
             <div class="tinyWhitespace"/>
@@ -197,6 +201,12 @@ class Main extends React.Component {
                         </div>
                     </div>
                 </div>
+
+            {this.state.selected && <ProjectDetails
+                    {...this.state.selected} lang={this.state.language}
+                    onClose={() => this.setState({ selected: null })} />
+                }
+
 
             </main>
     

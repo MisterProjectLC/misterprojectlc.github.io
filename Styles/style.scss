@@ -1,4 +1,5 @@
 @use 'project';
+@use 'project_details';
 
 @mixin column-count($x) { 
     -webkit-column-count: 2;

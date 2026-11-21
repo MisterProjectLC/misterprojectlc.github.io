@@ -8,11 +8,41 @@ var Projects = [
     "category2": "itchio",
     "video": "https://www.youtube.com/embed/_eCdCbvIygE?si=oO64BVXThbnweRLe",
     "carousel": true,
-    "descriptions":{"Português":"Hack n' slash roguelite frenético gótico, desenvolvido em Godot.",
-                  "English":"Top-down hack n' slash game with a dark fantasy aesthetic."},
+    "descriptions":{"Português":"Hack n' slash roguelite frenético com uma estética gótica pixel art.",
+                  "English":"Top-down hack n' slash roguelite with a pixel art gothic aesthetic."},
     "roles":{"Português":"Diretor Criativo, Lead de Desenvolvimento e Escritor",
-                  "English":"Creative Director, Head Developer and Head Writer"}
+                  "English":"Creative Director, Head Developer and Head Writer"},
+              
+    "work":{"Português":["Organizei reuniões, planejei prazos para lançamentos e negociei com parceiros externos.",
+        "Escrevi documentos de design, direcionei a experiência de\
+        jogador, priorizei e planejei features de gameplay e criei o roteiro da narrativa.",
+        "Fui o desenvolvedor principal do projeto, implementando mecânicas de gameplay, inimigos, sistemas de save, opções e UI."],
+                  "English":["Organized meetings, planned delivery deadlines and negotiated with external partners.",
+          "Wrote design documents, directed the player’s experience,\
+          prioritized gameplay features and created the narrative’s script.",
+        "As the project’s main developer, implemented gameplay systems, enemy behavior, save systems, options and UI."]},
+      "tags":["2D","Hack n' Slash", "Roguelite","Commercial","Godot"]
 
+  },
+  {
+    "name": "BRAZILIAN DRUG DEALER 2",
+    "type":"Unity",
+    "link": "https://www.youtube.com/watch?v=rpMaLuFc48g",
+    "category": "Youtube",
+    "video": "https://www.youtube.com/embed/rpMaLuFc48g?si=bHOmwzL33ce_wrLU",
+    "carousel": true,
+    "descriptions":{"Português":"Remake ainda não lançado do jogo de tiro viral AVIÃOZINHO DO TRÁFICO 2, desenvolvido com o Joeveno como freelancer.",
+                  "English":"Still unreleased remake of the hit first-person shooter BRAZILIAN DRUG DEALER 2, developed with Joeveno as a freelancer."},
+    "roles":{"Português":"Diretor Criativo e Lead de Desenvolvimento",
+                  "English":"Creative Director and Head Developer"},
+              
+    "work":{"Português":["O Seguindo orientações do cliente, expandi sobre a obra original planejando novas armas, inimigos e fases.",
+        " Fui o desenvolvedor principal do projeto, implementando mecânicas de gameplay, inimigos, sistemas de save, opções e UI.",
+          "Desenvolvi e testei shaders customizados para criar uma atmosfera visual similar aos jogos de DOOM originais."],
+           "English":["Following client requests, expanded upon the original work by planning new weapons, enemies and stages.",
+        "As the project’s main developer, implemented gameplay systems, enemy behavior, save systems, options and UI.",
+        "Developed and tested custom shaders to create a visual atmosphere more akin to the original DOOM games."]},
+      "tags":["3D","FPS","Commercial","Unity"]
   },
   {
     "name": "Hit It Back",
@@ -24,7 +54,15 @@ var Projects = [
     "descriptions":{"Português":"Afrogame docuficional esportivo de cricket urbano. Partidas rápidas e casuais entre dois jogadores.",
                   "English":"Docufictional sport afrogame about street-style cricket. Quick, carefree two-player matches."},
     "roles":{"Português":"Desenvolvedor de Gameplay e Assistente de Game Design",
-                  "English":"Gameplay Programmer and Game Design Assistant"}
+                  "English":"Gameplay Programmer and Game Design Assistant"},
+              
+    "work":{"Português":["Encarregado como desenvolvedor de gameplay, implementei mecânicas relacionadas à experiência do jogador, como\
+        sistemas de gameplay, UI e acessibilidade, principalmente relacionada a áudio",
+        "Participei de reuniões de design, projetando mecânicas novas, analisando outras propostas e informando sobre dificuldades técnicas."],
+           "English":["As the project’s gameplay developer, implemented mechanics related to player experience, such as gameplay systems,\
+            UI and accessibility features (mostly related to audio).",
+        "Took part in design meetings, planning new features, analysing other proposals and advising on technical difficulties."]},
+      "tags":["2D","Casual","Multiplayer","Commercial","Unity"]
   },
   {
     "name": "The Two Body Problem",
@@ -32,7 +70,10 @@ var Projects = [
     "link": "https://misterproject.itch.io/the-two-body-problem",
     "category": "itchio",
     "descriptions":{"Português":"Jogo narrativo sobre vulnerabilidade emocional para a Wild and Proud Godot Jam.",
-                  "English":"Narrative-centric game about emotional vulnerability for the Wild and Proud Godot Jam."}
+                  "English":"Narrative-centric game about emotional vulnerability for the Wild and Proud Godot Jam."},
+    "work":{"Português":["Design harmônico ludonarrativamente, representando vulnerabilidade emocional através de gameplay."],
+           "English":["Ludonarratively harmonious design, conveying emotional vulnerability through gameplay."]},
+    "tags":["2D","Narrative","Game Jam","Godot"]
   },
   {
     "name": "Laser Grid",
@@ -42,19 +83,34 @@ var Projects = [
     "link2": "https://ldjam.com/events/ludum-dare/54/laser-grid",
     "category2": "LudumDare",
     "descriptions":{"Português":"Jogo de puzzle estiloso e frenético.\nEntre os top 100 jogos da Ludum Dare 54 Compo.",
-                  "English":"Stylish, fast-paced puzzle game.\nAmong the top 100 submissions to Ludum Dare 54 Compo."}
+                  "English":"Stylish, fast-paced puzzle game.\nAmong the top 100 submissions to Ludum Dare 54 Compo."},
+        "roles":{"Português":"Desenvolvi o jogo por completo",
+                  "English":"Developed the game in its entirety"},
+    "tags":["2D","Puzzle","Game Jam","Godot"]
     },
+
+    {
+        "name": "Por que Pressionamos Continue",
+        "type":"Game Design",
+        "link": "https://www.youtube.com/watch?v=cVFJe-2sFPA",
+        "category": "Youtube",
+        "video": "https://www.youtube.com/embed/cVFJe-2sFPA?si=AbOSF92vPmYgf6_I",
+        "descriptions":{"Português":"Ensaio em vídeo analisando o que motiva jogadores a continuarem persistindo em jogos, mesmo perante dificuldades.",
+                      "English":"Video essay with an analysis on what motivates players to keep playing, despite difficulties within their games."},
+        "tags":["Game Design","Personal Project"]
+    },
+
     {
       "name": "ColorHex",
       "type":"Godot",
       "link": "https://misterproject.itch.io/colorhex",
       "category": "itchio",
       "video": "https://www.youtube.com/embed/0DDeqihziTM",
-      "carousel": true,
       "descriptions":{"Português":"Jogo de ação top-down com estética inspirada em art deco. Entre os top 5% jogos da GMTK2022.",
                     "English":"Top-down action game with a Roaring 20s aesthetic. Among the top 5% submissions to GMTK2022."},
     "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
-                  "English":"Creative Director and Head Developer"}
+                  "English":"Creative Director and Head Developer"},
+      "tags":["2D","Action","Game Jam","Godot"]
     },
     {
         "name": "Kinetic",
@@ -68,7 +124,8 @@ var Projects = [
         "descriptions":{"Português":"FPS frenético com gráficos low-poly e loadouts customizáveis, que se passa em uma estação espacial.",
                       "English":"Fast-paced low-poly movement shooter with customizable loadouts, set in a space station."},
         "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
-                  "English":"Creative Director and Head Developer"}
+                  "English":"Creative Director and Head Developer"},
+        "tags":["3D","FPS","Level Design","Personal Project","Unity"]
     },
 
     {
@@ -79,21 +136,11 @@ var Projects = [
         "link2": "https://discord.gg/NGyczYjSav",
         "category2": "Discord",
         "video": null,
-        "descriptions":{"Português":"Um evento de 1 mês no Discord para 20+ pessoas envolvendo diplomacia, conspirações e alienígenas. Desenvolvi um Bot de Discord utilizando JavaScript, SQL, Postgres e discord.js.",
-                      "English":"A month-long event in Discord for 20+ players involving diplomacy, conspiracy and aliens. Developed a Discord Bot utilizing JavaScript, SQL, Postgres and discord.js."}
-    },
-
-    {
-        "name": "Rogues & Rumors",
-        "type":"Game Design",
-        "link": "https://docs.google.com/document/d/1OS7czH9RYANIRNwt7XWktSYlsTMnGdf91ZUNhBYL7jI/edit?usp=sharing",
-        "category": "GoogleDocs",
-        "link2": null,
-        "category2": null,
-        "video": null,
-        "carousel": true,
-        "descriptions":{"Português":"Um jogo de 3-6 jogadores sobre ladrões, guildas e intriga.",
-                      "English":"A 3-6-player game about rogues, guilds and intrigue."}
+        "descriptions":{"Português":"Um evento de 1 mês no Discord para 20+ pessoas envolvendo diplomacia, conspirações e alienígenas.\
+                    Desenvolvi um Bot de Discord utilizando JavaScript, SQL, Postgres e discord.js.",
+                      "English":"A month-long event in Discord for 20+ players involving diplomacy, conspiracy and aliens.\
+                      Developed a Discord Bot using JavaScript, SQL, Postgres and discord.js."},
+        "tags":["Discord","JavaScript","SQL","Personal Project"]
     },
 
     {
@@ -105,10 +152,11 @@ var Projects = [
       "category2": "LudumDare",
       "video": "https://www.youtube.com/embed/FGvM4UP8FkU",
       "carousel": true,
-      "descriptions":{"Português":"Jogo de puzzle em um ambiente de Sistema Operacional ala Windows 95, feito para a LD48.",
-                    "English":"Unmask the conspiracy behind this Windows 95-esque Operating System. LD48."},
+      "descriptions":{"Português":"Jogo de puzzle de terror em um Sistema Operacional ala Windows 95. Entre os top 20% dos jogos da LD48.",
+                    "English":"Horror puzzle game within an Operating System ala Windows 95. Among the top 20% submissions to LD48."},
         "roles":{"Português":"Diretor Criativo, Desenvolvedor Principal e Escritor",
-                  "English":"Creative Director, Head Developer and Head Writer"}
+                  "English":"Creative Director, Head Developer and Head Writer"},
+        "tags":["2D","Puzzle","Narrative","Game Jam","Godot"]
     },
     {
       "name": "Minecraft Among Us",
@@ -119,7 +167,8 @@ var Projects = [
       "category2": "",
       "video": "https://www.youtube.com/embed/nfqVSoxF1ho",
       "descriptions":{"Português":"Mapa de Minecraft simulando o jogo de dedução social Among Us, implementado com command blocks. É uma versão mais 'física' comparada à versão de Phoenix SC.",
-                    "English":"Minecraft map simulating the social deduction game Among Us, implemented using command blocks. Has a more 'physical' take compared to Phoenix SC's version."}
+                    "English":"Minecraft map simulating the social deduction game Among Us, implemented using command blocks. Has a more 'physical' take compared to Phoenix SC's version."},
+        "tags":["Minecraft","Personal Project"]
     },
     {
       "name": "Lightstreak",
@@ -127,12 +176,11 @@ var Projects = [
       "link": "https://misterproject.itch.io/lightstreak",
       "category": "itchio",
       "link2": "https://gotm.io/misterproject/lightstreak",
-      "category2": "Gotm",
-      "video": "https://www.youtube.com/embed/eK5wpTAujIg",
       "descriptions":{"Português":"Jogo de digitação e defesa com uma estética neon.",
                     "English":"Defense typing game with a neon-like aesthetic."},
         "roles":{"Português":"Diretor Criativo e Desenvolvedor Principal",
-                  "English":"Creative Director and Head Developer"}
+                  "English":"Creative Director and Head Developer"},
+      "tags":["2D","Typing","Personal Project","Godot"]
     },
     {
       "name": "Gravitoids",
@@ -143,6 +191,9 @@ var Projects = [
       "category2": "Gamejolt",
       "video": "https://www.youtube.com/embed/sXLI4fMc6Z4",
       "descriptions":{"Português":"Jogo no estilo de Asteroids - controle gravidade para atrapalhar e destruir inimigos.",
-                    "English":"Asteroids-esque game - control gravity to disrupt and destroy enemies."}
+                    "English":"Asteroids-esque game - control gravity to disrupt and destroy enemies."},
+        "roles":{"Português":"Desenvolvi o jogo por completo",
+                  "English":"Developed the game in its entirety"},
+      "tags":["2D","Action","Personal Project","Unity"]
     }
   ]
