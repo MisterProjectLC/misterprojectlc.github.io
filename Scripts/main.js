@@ -12,8 +12,8 @@ class Main extends React.Component {
         this.state = { lang: 0, language:"English", dropdownMenu: false, selected: null };
         this.languageList = ["English", "Português"];
         this.generalUI = {"About":{"English":"About","Português":"Sobre"},
-                            "Godot":{"English":"Godot","Português":"Godot"},
                             "Unity":{"English":"Unity","Português":"Unity"},
+                            "Godot":{"English":"Godot","Português":"Godot"},
                             "Design":{"English":"Game Design","Português":"Game Design"},
                             "Language":{"English":"Language","Português":"Idioma"},
                         };
@@ -138,8 +138,8 @@ class Main extends React.Component {
                 <h1><a href="#">Dan Isamu</a></h1>
                 <h2><a href="#">misterprojectlc.github.io</a></h2>
                 <div id="links">
-                    <a href="#godot">{this.generalUI["Godot"][this.state.language]}</a>
                     <a href="#unity">{this.generalUI["Unity"][this.state.language]}</a>
+                    <a href="#godot">{this.generalUI["Godot"][this.state.language]}</a>
                     <a href="#design">{this.generalUI["Design"][this.state.language]}</a>
                     <a href="#about">{this.generalUI["About"][this.state.language]}</a>
                     <a id="languageDropdown">{this.generalUI["Language"][this.state.language]}</a>
@@ -167,14 +167,14 @@ class Main extends React.Component {
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                    
-                <div class="tinyWhitespace"/>
-                <h1 class="title" id="godot">{this.generalUI["Godot"][this.state.language]}</h1>
-                {godotProjects}
-
+                
                 <div class="tinyWhitespace"/>
                 <h1 class="title" id="unity">{this.generalUI["Unity"][this.state.language]}</h1>
                 {unityProjects}
+
+                <div class="tinyWhitespace"/>
+                <h1 class="title" id="godot">{this.generalUI["Godot"][this.state.language]}</h1>
+                {godotProjects}
 
                 <div class="tinyWhitespace"/>
                 <h1 class="title" id="design">{this.generalUI["Design"][this.state.language]}</h1>
